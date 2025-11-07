@@ -1,0 +1,14 @@
+C:\Users\eveli\source\repos\GCS - Gestão de Compras e Suprimentos\GCS\bin\Debug\net8.0\GCS.exe
+C:\Users\eveli\source\repos\GCS - Gestão de Compras e Suprimentos\GCS\bin\Debug\net8.0\GCS.deps.json
+C:\Users\eveli\source\repos\GCS - Gestão de Compras e Suprimentos\GCS\bin\Debug\net8.0\GCS.runtimeconfig.json
+C:\Users\eveli\source\repos\GCS - Gestão de Compras e Suprimentos\GCS\bin\Debug\net8.0\GCS.dll
+C:\Users\eveli\source\repos\GCS - Gestão de Compras e Suprimentos\GCS\bin\Debug\net8.0\GCS.pdb
+C:\Users\eveli\source\repos\GCS - Gestão de Compras e Suprimentos\GCS\obj\Debug\net8.0\GCS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eveli\source\repos\GCS - Gestão de Compras e Suprimentos\GCS\obj\Debug\net8.0\GCS.AssemblyInfoInputs.cache
+C:\Users\eveli\source\repos\GCS - Gestão de Compras e Suprimentos\GCS\obj\Debug\net8.0\GCS.AssemblyInfo.cs
+C:\Users\eveli\source\repos\GCS - Gestão de Compras e Suprimentos\GCS\obj\Debug\net8.0\GCS.csproj.CoreCompileInputs.cache
+C:\Users\eveli\source\repos\GCS - Gestão de Compras e Suprimentos\GCS\obj\Debug\net8.0\GCS.dll
+C:\Users\eveli\source\repos\GCS - Gestão de Compras e Suprimentos\GCS\obj\Debug\net8.0\refint\GCS.dll
+C:\Users\eveli\source\repos\GCS - Gestão de Compras e Suprimentos\GCS\obj\Debug\net8.0\GCS.pdb
+C:\Users\eveli\source\repos\GCS - Gestão de Compras e Suprimentos\GCS\obj\Debug\net8.0\GCS.genruntimeconfig.cache
+C:\Users\eveli\source\repos\GCS - Gestão de Compras e Suprimentos\GCS\obj\Debug\net8.0\ref\GCS.dll
