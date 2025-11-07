@@ -1,0 +1,14 @@
+C:\Users\eveli\source\repos\GerenciADOR de Compras e Suprimentos\GerenciADOR de Compras e Suprimentos\bin\Debug\net8.0\GerenciADOR de Compras e Suprimentos.exe
+C:\Users\eveli\source\repos\GerenciADOR de Compras e Suprimentos\GerenciADOR de Compras e Suprimentos\bin\Debug\net8.0\GerenciADOR de Compras e Suprimentos.deps.json
+C:\Users\eveli\source\repos\GerenciADOR de Compras e Suprimentos\GerenciADOR de Compras e Suprimentos\bin\Debug\net8.0\GerenciADOR de Compras e Suprimentos.runtimeconfig.json
+C:\Users\eveli\source\repos\GerenciADOR de Compras e Suprimentos\GerenciADOR de Compras e Suprimentos\bin\Debug\net8.0\GerenciADOR de Compras e Suprimentos.dll
+C:\Users\eveli\source\repos\GerenciADOR de Compras e Suprimentos\GerenciADOR de Compras e Suprimentos\bin\Debug\net8.0\GerenciADOR de Compras e Suprimentos.pdb
+C:\Users\eveli\source\repos\GerenciADOR de Compras e Suprimentos\GerenciADOR de Compras e Suprimentos\obj\Debug\net8.0\GerenciADOR de Compras e Suprimentos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eveli\source\repos\GerenciADOR de Compras e Suprimentos\GerenciADOR de Compras e Suprimentos\obj\Debug\net8.0\GerenciADOR de Compras e Suprimentos.AssemblyInfoInputs.cache
+C:\Users\eveli\source\repos\GerenciADOR de Compras e Suprimentos\GerenciADOR de Compras e Suprimentos\obj\Debug\net8.0\GerenciADOR de Compras e Suprimentos.AssemblyInfo.cs
+C:\Users\eveli\source\repos\GerenciADOR de Compras e Suprimentos\GerenciADOR de Compras e Suprimentos\obj\Debug\net8.0\GerenciADOR de Compras e Suprimentos.csproj.CoreCompileInputs.cache
+C:\Users\eveli\source\repos\GerenciADOR de Compras e Suprimentos\GerenciADOR de Compras e Suprimentos\obj\Debug\net8.0\GerenciADOR de Compras e Suprimentos.dll
+C:\Users\eveli\source\repos\GerenciADOR de Compras e Suprimentos\GerenciADOR de Compras e Suprimentos\obj\Debug\net8.0\refint\GerenciADOR de Compras e Suprimentos.dll
+C:\Users\eveli\source\repos\GerenciADOR de Compras e Suprimentos\GerenciADOR de Compras e Suprimentos\obj\Debug\net8.0\GerenciADOR de Compras e Suprimentos.pdb
+C:\Users\eveli\source\repos\GerenciADOR de Compras e Suprimentos\GerenciADOR de Compras e Suprimentos\obj\Debug\net8.0\GerenciADOR de Compras e Suprimentos.genruntimeconfig.cache
+C:\Users\eveli\source\repos\GerenciADOR de Compras e Suprimentos\GerenciADOR de Compras e Suprimentos\obj\Debug\net8.0\ref\GerenciADOR de Compras e Suprimentos.dll
