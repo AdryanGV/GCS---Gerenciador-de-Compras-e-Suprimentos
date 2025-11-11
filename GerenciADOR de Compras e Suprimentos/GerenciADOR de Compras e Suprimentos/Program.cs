@@ -1,86 +1,56 @@
-﻿//Second Time I'm Trying to do a somewhat funcional program
-//Let's try to make it simple this time
-int opcao = 1;
-bool Selecao = false;
-string corSelecionado = "\u001b[32m";
-Guid obama = Guid.NewGuid();
-string[] coordenador = { "Obama", "9/11" };
-bool logged = false;
-void menu_Opcoes()
+﻿string[] admin_Login = {"Obama", "911"};
+string[] gestor_imediato = {"T72", "Diesel"};
+string[] diretor_AreaPlaceHolder = {"Maxwell", "CodexUmbra123"};
+string[] gerente_financeiro = {"Sim","Nao"};
+string[] jaiminho_Aquele_Que_A_Licitacao_Recebe = {"Raúl Padilla Mendoza", "17/6/1918"};
+
+string[,] requisoes_de_compra = {};
+bool vivo = true;
+void tela_inicial()
 {
-    Console.WriteLine($"{(opcao == 1 ? corSelecionado : "")}Login\u001b[0m");
-    Console.WriteLine($"{(opcao == 2 ? corSelecionado : "")}Sair\u001b[0m");
+    Console.WriteLine("Aviso: Escolha de ações neste programa funciona somente através de números. Qualquer outro caractere é desconsiderado.");
+    Console.WriteLine("Caso seja sua primeira vez aqui, digite 'h' ou 'H' para acessar o manual de uso.");
+    Console.WriteLine("0 - Login");
+    Console.WriteLine("1 - Sair");
 }
-void checar()
+tela_inicial();
+//This while statement is so stupidly big, and that's why I love it so much.
+while (vivo == true)
 {
-    if(opcao == 1)
-    {
-        bool user = false;
-        bool password = false;
-        Console.Clear();
-        Console.WriteLine($"{corSelecionado}Insira seu usuário: \u001b[0m");
-        string usuario_Inserido = Console.ReadLine();
-        Console.WriteLine($"{corSelecionado}Insira sua Senha: \u001b[0m");
-        string senha_Inserida = Console.ReadLine();
-        if (usuario_Inserido == coordenador[0]) { user = true; }
-        if (senha_Inserida == coordenador[1]) { password = true; }
-        if (user == true && password == true) { 
-            logged = true;
-            Console.Clear();
-            Console.WriteLine($"Você está Logado como {(coordenador[0])}!");
+    string user_input = Console.ReadLine();
+    Console.Clear();
+    if (user_input == "0") {
+        
+        Console.WriteLine("Informe vosso Usuário: ");
+        string user = Console.ReadLine();
+        Console.WriteLine("Informe vossa Senha: ");
+        string senha = Console.ReadLine();
+
+        if (user == admin_Login[0]) {
+            if (senha == admin_Login[1])
+            {
+                Console.WriteLine($"Tu logastes como {(admin_Login[0])}");
+                Console.WriteLine("0 - Logout");
+                Console.WriteLine("1 - Fazer RC");
+                Console.WriteLine("2 - Aprovar RC");
+                string user_input0 = Console.ReadLine();
+                if (user_input0 == "0") { vivo = false; }
+                if (user_input0 == "1")
+                {
+
+                }
+                if (user_input0 == "2")
+                {
+
+                }
+            }
         }
-        else { 
-            Console.Clear();
-            Console.WriteLine("Usuário ou senha incorretos.");
-        }
-    }
-    if(opcao == 2) { Selecao = true;}
-}
-void acoes_Logado()
-{
-    
-    bool Seleci = false;
-    if (logged == true)
-    {
-        Console.WriteLine($"{(opcao == 1 ? corSelecionado : "")}Fazer Requisição de Compra\u001b[0m");
-        Console.WriteLine($"{(opcao == 2 ? corSelecionado : "")}Logout\u001b[0m");
-    }
-    else { return; }
-    while (Seleci == false)
-    {
-        var key = Console.ReadKey();
-        switch (key.Key)
-        {
-            case ConsoleKey.DownArrow:
-                opcao = (opcao == 2 ? 1 : opcao + 1);
-                break;
-            case ConsoleKey.UpArrow:
-                opcao = (opcao == 1 ? 2 : opcao - 1);
-                break;
-            case ConsoleKey.Enter:
-                Seleci = true;
-                break;
+        else {
+            Console.WriteLine("Alguma Credencial foi incorretamente informada;");
+            break;
         }
     }
-}
-while (Selecao == false)
-{
-    menu_Opcoes();
-    var key = Console.ReadKey();
-    switch (key.Key)
-    {
-        case ConsoleKey.DownArrow:
-            Console.Clear();
-            opcao = (opcao == 2 ? 1 : opcao + 1);
-            break;
-        case ConsoleKey.UpArrow:
-            Console.Clear();
-            opcao = (opcao == 1 ? 2 : opcao - 1);
-            break;
-        case ConsoleKey.Enter:
-            checar();
-            acoes_Logado();
-            break;
-    }
+    if (user_input == "1") {vivo = false;}
+
 }
 
